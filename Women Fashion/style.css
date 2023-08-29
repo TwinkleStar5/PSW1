@@ -1,0 +1,97 @@
+header {
+  background: url("./img//2.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+}
+
+header h1 {
+  position: absolute;
+  z-index: 3;
+  color: aliceblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display", serif;
+  font-size: 60px !important;
+}
+
+body h1{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: wavy;
+}
+
+.pic {
+  position: relative;
+}
+
+.pic .hoverimg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  /* width: fit-content;
+  height: fit-content; */
+}
+
+.pic .hovercaption {
+  display: none;
+}
+
+.pic:hover {
+  cursor: pointer;
+ }
+
+.pic:hover .hoverimg {
+  display: block;
+ 
+}
+
+.pic:hover .hovercaption {
+  display: block;
+}
+
+.pic img {
+  height: 500px;
+  object-fit: contain;
+}
+
+.hovercaption {
+  float: left;
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+  color: lightpink;
+}
+
+.caption {
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+}
+
+.caption .price {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.body-container{
+  /* scroll-snap-type: mandatory; */
+  /* scroll-snap-points-y: repeat(300px); */
+  scroll-snap-type: x mandatory;
+}
+
+.child{
+  
+  scroll-snap-align: start;
+}
+
