@@ -84,11 +84,11 @@ body h1{
   letter-spacing: 2px;
 }
 
-.body-container{
-  /* scroll-snap-type: mandatory; */
+/* .body-container{
+  scroll-snap-type: mandatory; */
   /* scroll-snap-points-y: repeat(300px); */
-  scroll-snap-type: x mandatory;
-}
+  /* scroll-snap-type: x mandatory;
+} */
 
 .child{
   
