@@ -8,7 +8,7 @@ header {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -24,13 +24,24 @@ header h1 {
   transform: translate(-50%, -50%);
   font-family: "Playfair Display", serif;
   font-size: 60px !important;
+  /* text-shadow: 2px 2px black; */
 }
 
-body h1{
+body {
+  background-color: #fff8f2;
+}
+
+body h1 {
   text-align: center;
   font-size: 50px;
   text-decoration: wavy;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
+}
+
+body .descp {
+  font-family: "Josefin Slab", serif;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .pic {
@@ -52,11 +63,10 @@ body h1{
 
 .pic:hover {
   cursor: pointer;
- }
+}
 
 .pic:hover .hoverimg {
   display: block;
- 
 }
 
 .pic:hover .hovercaption {
@@ -72,7 +82,7 @@ body h1{
   float: left;
   font-family: "Josefin Slab", serif;
   font-size: 18px;
-  color: lightpink;
+  color: #a7bed3;
 }
 
 .caption {
@@ -87,12 +97,14 @@ body h1{
 
 /* .body-container{
   scroll-snap-type: mandatory; */
-  /* scroll-snap-points-y: repeat(300px); */
-  /* scroll-snap-type: x mandatory;
+/* scroll-snap-points-y: repeat(300px); */
+/* scroll-snap-type: x mandatory;
 } */
 
-.child{
-  
+.child {
   scroll-snap-align: start;
 }
 
+section h1 {
+  padding: 20px;
+}
