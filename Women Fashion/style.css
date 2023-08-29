@@ -82,13 +82,13 @@ body .descp {
   float: left;
   font-family: "Josefin Slab", serif;
   font-size: 18px;
-  color: #a7bed3;
+  color: #93adc6;
 }
 
 .caption {
   font-family: "Josefin Slab", serif;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .caption .price {
@@ -110,12 +110,32 @@ section h1 {
   padding: 20px;
 }
 
-
-.row{
+.row {
   margin-bottom: 60px;
- 
 }
 
-/* .row div{
-  margin-left: 2px;
-} */
+@media (max-width: 700px) {
+  header {
+    background: url(img/7.jpg);
+    background-size: cover;
+  }
+}
+
+@media (max-width: 500px) {
+  .caption {
+    font-size: 16px;
+  }
+  body h1 {
+    font-size: 30px;
+  }
+
+  body .descp {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .caption {
+    font-size: 14px;
+  }
+}
