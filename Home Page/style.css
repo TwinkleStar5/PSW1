@@ -15,3 +15,50 @@ header h1 {
   font-family: "Playfair Display", serif;
   font-size: 160px;
 }
+
+/* .overlay {
+  position: absolute;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.5);
+} */
+
+.about {
+  background: url("./img/about.webp");
+  background-size: cover;
+  
+  
+  /* width: 100%; */
+  text-align: center;
+  padding: 60px;
+  position: relative;
+  z-index: 1;
+  /* height: fit-content; */
+color: azure;
+  font-size: 20px;
+}
+
+
+/* .about::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.25);
+} */
+
+.about h2 {
+  padding: 20px;
+  font-size: 40px;
+  border-bottom: 2px solid white;
+
+}
+
+
+.text{
+  border: 2px solid white;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
