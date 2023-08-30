@@ -109,6 +109,10 @@ header {
   section h1 {
     padding: 20px;
   }
+
+  section p{
+    text-align: center;
+  }
   
   .row {
     margin-bottom: 60px;
