@@ -13,7 +13,8 @@ header h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Playfair Display", serif;
-  font-size: 160px;
+  font-size: 120px;
+  letter-spacing: 5px;
 }
 
 /* .overlay {
@@ -22,21 +23,38 @@ header h1 {
   background: rgba(255, 255, 255, 0.5);
 } */
 
-.about {
-  background: url("./img/about.webp");
+.building {
+  background: url("./img/la\ galerie\ dior.jpg");
   background-size: cover;
+  height: 120vh;
+  position: relative;
   
-  
+}
+
+.building p{
+  position: absolute;
+  font-size: 24px;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ color: white;
+ font-family: "Cinzel", serif;
+
+}
+
+
+
+.about {
+  /* background: url("./img/about.webp"); */
+  background-color: #fff1e6;
   /* width: 100%; */
   text-align: center;
   padding: 60px;
   position: relative;
   z-index: 1;
   /* height: fit-content; */
-color: azure;
   font-size: 20px;
 }
-
 
 /* .about::before {
   content: "";
@@ -49,16 +67,51 @@ color: azure;
 } */
 
 .about h2 {
-  padding: 20px;
+  padding: 50px;
   font-size: 40px;
   border-bottom: 2px solid white;
+  font-family: "Cinzel", serif;
+  color: #e8a598;
+}
+
+.text {
+  border: 2px solid white;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #ac8f81;
+}
+
+.founder{
+  background-color: #fff1e6;
+  padding-bottom: 50px;
+}
+
+.founder .outer-img{
+   border: 2px solid white;
+   width: fit-content;
+   padding: 20px;
 
 }
 
+.founder img{
+  height: 500px;
+  object-fit: contain;
+ 
+}
 
-.text{
-  border: 2px solid white;
-  border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.6);
-  color: black;
+.founder p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  font-weight: 500;
+  color: #e8a598;
+
 }
